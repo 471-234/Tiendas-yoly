@@ -33,4 +33,3 @@ class Categoria extends Model
 
 
 
-2.4. Producto.php
