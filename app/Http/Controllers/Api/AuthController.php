@@ -76,7 +76,7 @@ class AuthController extends Controller
         ]);
     }
 
-    // CERRAR SESION
+    // CERRAR SESION 
     public function logout(Request $request)
     {
         $request->user()->currentAccessToken()->delete();
